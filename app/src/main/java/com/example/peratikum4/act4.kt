@@ -33,4 +33,13 @@ fun ActivitasPertama(modifier: Modifier){
     Column(
         modifier = modifier.padding(top = 100.dp)
             .fillMaxSize(),
-    )
+    ){
+        Text(
+            stringResource(R.string.prodi),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            stringResource(id = R.string.univ),
+            fontSize = 22.sp
+        )
